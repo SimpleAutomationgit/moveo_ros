@@ -68,8 +68,6 @@ Configuration for moveit, a motion planning framework that has a plugin in RVIZ,
 		- (http://wiki.ros.org/rosserial/Tutorials/Adding%20Other%20Messages)
 	
  ##Planing and execute via joystick
-       first  
-            ```
-	    roslaunch moveo_moveit_config demo.launch                                                                                               
-            rosrun joy joy_node 
-            ```
+       first   ```  roslaunch moveo_moveit_config demo.launch   ```                                                                                           
+       then ```    rosrun joy joy_node     ```
+            

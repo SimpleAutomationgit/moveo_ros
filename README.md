@@ -1,12 +1,5 @@
 # moveo_ros
 ROS packages that can be used to plan and execute motion trajectories for the BCN3D Moveo robotic arm in simulation and real-life.
-### [Video Demo Here!](https://youtu.be/2RcTTqs17O8)
-
-- **_New Feature_: Object-Specific Pick and Place** (With an ordinary webcam, Tensorflow, OpenCV, and ROS, you can 'pick and place' (or sort) objects that are detected in real-time)
-	- **[Video Demo](https://youtu.be/kkUbyFa2MWc)**
-	- **[How to Use](https://github.com/jesseweisberg/moveo_ros/tree/master/moveo_moveit/scripts)**
-
-
 
 ## How to Use:
 
@@ -74,6 +67,8 @@ Configuration for moveit, a motion planning framework that has a plugin in RVIZ,
 		- Section 2.2 here: (http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
 		- (http://wiki.ros.org/rosserial/Tutorials/Adding%20Other%20Messages)
 	
-- Here is my current layout and wiring schematic for reference:
-![aerialRobotSketch.pdf](/aerial_robot_sketch.png)
-![imagetopdf.pdf](/67653121_1871848426294833_3855630160669704192_n.jpg)
+ ##Planing and execute via joystick
+       first  
+	    roslaunch moveo_moveit_config demo.launch
+            rosrun joy joy_node 
+         

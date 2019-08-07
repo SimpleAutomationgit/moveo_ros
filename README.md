@@ -76,3 +76,4 @@ Configuration for moveit, a motion planning framework that has a plugin in RVIZ,
 	
 - Here is my current layout and wiring schematic for reference:
 ![aerialRobotSketch.pdf](/aerial_robot_sketch.png)
+![imagetopdf.pdf]

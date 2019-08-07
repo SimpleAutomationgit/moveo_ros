@@ -70,6 +70,6 @@ Configuration for moveit, a motion planning framework that has a plugin in RVIZ,
  ##Planing and execute via joystick
        first  
             ```
-	    roslaunch moveo_moveit_config demo.launch
+	    roslaunch moveo_moveit_config demo.launch                                                                                               
             rosrun joy joy_node 
             ```
